@@ -1,0 +1,4 @@
+SELECT	p	
+FROM	product	p	
+UNNEST p.categories as category
+WHERE	category	=	"Appliances"
